@@ -1,0 +1,6 @@
+python realtime_detect.py --source 0
+
+npm start
+
+cd fire-dashboard
+

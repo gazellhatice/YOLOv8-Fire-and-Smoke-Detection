@@ -1,0 +1,40 @@
+[
+    {
+        "model_name": "yolov8n",
+        "run_name": "fire_smoke_yolov8n_cmp",
+        "epochs": 50,
+        "imgsz": 640,
+        "split": "test",
+        "map50_95": 0.5538162129253423,
+        "map50": 0.9092811376866727,
+        "map75": 0.5229210284567869,
+        "precision_mean": 0.8890143809127418,
+        "recall_mean": 0.8714285714285714,
+        "run_dir": "C:\\Users\\Hatice\\Desktop\\YAZİLİMMÜH\\Yazilim5.sinif\\YOLOv8-Fire-and-Smoke-Detection-main\\runs\\fire_smoke_yolov8n_cmp2",
+        "per_class_map50_95": {
+            "Fire": 0.4686548147048688,
+            "default": 0.5538162129253423,
+            "smoke": 0.6389776111458157
+        },
+        "fps": 11.736071249460188
+    },
+    {
+        "model_name": "yolov8s",
+        "run_name": "fire_smoke_yolov8s_cmp",
+        "epochs": 50,
+        "imgsz": 640,
+        "split": "test",
+        "map50_95": 0.5862136534354326,
+        "map50": 0.9691044236987006,
+        "map75": 0.552371343828246,
+        "precision_mean": 0.9271767395959123,
+        "recall_mean": 0.9091816024877328,
+        "run_dir": "C:\\Users\\Hatice\\Desktop\\YAZİLİMMÜH\\Yazilim5.sinif\\YOLOv8-Fire-and-Smoke-Detection-main\\runs\\fire_smoke_yolov8s_cmp",
+        "per_class_map50_95": {
+            "Fire": 0.5473569244369647,
+            "default": 0.5862136534354326,
+            "smoke": 0.6250703824339006
+        },
+        "fps": 6.162792936301765
+    }
+]

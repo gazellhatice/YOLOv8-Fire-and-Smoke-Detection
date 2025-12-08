@@ -1,0 +1,26 @@
+{
+    "config": {
+        "model_name": "efficientnet_b0_from_yolo_labels",
+        "epochs": 25,
+        "batch_size": 32,
+        "lr": 0.0001,
+        "img_size": 224,
+        "num_classes": 3,
+        "seed": 42,
+        "run_dir": "C:\\Users\\Hatice\\Desktop\\YAZİLİMMÜH\\Yazilim5.sinif\\YOLOv8-Fire-and-Smoke-Detection-main\\runs\\cls_efficientnet_b0_yolo",
+        "classes": [
+            "fire",
+            "smoke",
+            "none"
+        ]
+    },
+    "results": {
+        "split": "val",
+        "accuracy": 0.9787234042553191,
+        "map50_95": null,
+        "map50": null,
+        "map75": null,
+        "precision_mean": null,
+        "recall_mean": null
+    }
+}

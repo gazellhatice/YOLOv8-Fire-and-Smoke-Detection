@@ -1,0 +1,26 @@
+{
+    "config": {
+        "model_name": "mobilenet_v2_from_yolo_labels",
+        "epochs": 20,
+        "batch_size": 32,
+        "lr": 0.001,
+        "img_size": 224,
+        "num_classes": 3,
+        "seed": 42,
+        "run_dir": "C:\\Users\\Hatice\\Desktop\\YAZİLİMMÜH\\Yazilim5.sinif\\YOLOv8-Fire-and-Smoke-Detection-main\\runs\\cls_mobilenet_v2_yolo",
+        "classes": [
+            "fire",
+            "smoke",
+            "none"
+        ]
+    },
+    "results": {
+        "split": "val",
+        "accuracy": 0.9787234042553191,
+        "map50_95": null,
+        "map50": null,
+        "map75": null,
+        "precision_mean": null,
+        "recall_mean": null
+    }
+}

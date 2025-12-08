@@ -21,7 +21,7 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_YAML = os.path.join(ROOT_DIR, "datasets", "fire-8", "data.yaml")
 
 MODEL_PATH = os.path.join(ROOT_DIR, "yolov8n.pt")
-# İstersen daha büyük modelle denemek için:
+
 # MODEL_PATH = os.path.join(ROOT_DIR, "yolov8s.pt")
 
 CONFIG = {

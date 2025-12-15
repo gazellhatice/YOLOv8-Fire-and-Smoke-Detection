@@ -1,0 +1,14 @@
+[
+  {
+    "id": "yolov8n",
+    "display_name": "YOLOv8 Nano",
+    "type": "yolo",
+    "weights_path": "runs/train/fire_smoke_yolov8n/weights/best.pt"
+  },
+  {
+    "id": "yolov8s",
+    "display_name": "YOLOv8 Small",
+    "type": "yolo",
+    "weights_path": "runs/train/fire_smoke_yolov8s/weights/best.pt"
+  }
+]
